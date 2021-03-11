@@ -1,10 +1,64 @@
-db.cart.insertOne(
-   {
-    _id : 7 ,
-    sku : "NAS8L",
-    qty : 45,
-    price : 657,
-    product_number: 15897,
-    Date_Added : new Date()
-   }
-)
+[{
+  "_id": 1,
+  "sku": "NAS1L",
+  "qty": 10,
+  "price": 100,
+  "product_number": 15897,
+  "Date_Added": {
+    "$date": "2021-03-11T06:49:11.307Z"
+  }
+},{
+  "_id": 2,
+  "sku": "GDB1L",
+  "qty": 50,
+  "price": 30,
+  "product_number": 15898,
+  "Date_Added": {
+    "$date": "2021-03-11T06:50:10.715Z"
+  }
+},{
+  "_id": 3,
+  "sku": "LA458",
+  "qty": 12,
+  "price": 256,
+  "product_number": 15899,
+  "Date_Added": {
+    "$date": "2021-03-11T06:51:03.363Z"
+  }
+},{
+  "_id": 4,
+  "sku": "CO544",
+  "qty": 23,
+  "price": 985,
+  "product_number": 15900,
+  "Date_Added": {
+    "$date": "2021-03-11T06:51:36.603Z"
+  }
+},{
+  "_id": 5,
+  "sku": "KE587",
+  "qty": 11,
+  "price": 471,
+  "product_number": 15901,
+  "Date_Added": {
+    "$date": "2021-03-11T06:53:41.954Z"
+  }
+},{
+  "_id": 6,
+  "sku": "MO487",
+  "qty": 45,
+  "price": 657,
+  "product_number": 15902,
+  "Date_Added": {
+    "$date": "2021-03-11T06:54:38.122Z"
+  }
+},{
+  "_id": 7,
+  "sku": "NAS8L",
+  "qty": 45,
+  "price": 657,
+  "product_number": 15897,
+  "Date_Added": {
+    "$date": "2021-03-11T06:55:33.778Z"
+  }
+}]
