@@ -1,0 +1,10 @@
+db.cart.insertOne(
+   {
+    _id : 7 ,
+    sku : "NAS8L",
+    qty : 45,
+    price : 657,
+    product_number: 15897,
+    Date_Added : new Date()
+   }
+)
